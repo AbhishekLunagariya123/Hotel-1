@@ -1,0 +1,678 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main1{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.logo{
+    object-fit: cover;
+    /* width: 150px; */
+    height: 80px;
+    position: fixed;
+    padding-top: 5px;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    width: 200px;
+    position: relative;
+    top: 30px;
+    left: 750px;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 15px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+.menu a:hover{
+    color: #ed1164;
+}
+.main2{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.text1{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 8px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    top: 150px;
+}
+.main3{
+    background-image: url(./Assets/Images/a2.png);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+   background-attachment: fixed; 
+}
+.text2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 230px;
+    opacity: .9;
+}
+.main4{
+    background-image: url(./Assets/Images/a3.jpeg);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main5{
+    background-image: url(./Assets/Images/a4.jpeg);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main6{
+    background-image: url(./Assets/Images/a5.jpeg);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main7{
+    background-image: url(./Assets/Images/a6.jpg);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main8{
+    background-image: url(./Assets/Images/a7.jpg);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main9{
+    background-image: url(./Assets/Images/a8.jpeg);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer{
+    width: 100%;
+    height: 177px;
+    background-size: cover;
+    object-fit: cover;
+}
+.text3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 100px;
+}
+.nav1{
+    width: 100%;
+    height: 70px;
+    background-color: #ed1164;
+    position: relative;
+    bottom: 40px;
+}
+.nav1 a{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    position: relative;
+    top: 23px;
+    left: 280px;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 25px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+.n1{
+    font-family: 'TradeGothicLT', sans-serif !important;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    transition-property: all;
+    /* transition-duration: 1s; */
+    letter-spacing: -0.02em;
+}
+.n1:hover {
+    color: rgb(217, 106, 86);
+   
+}
+.div1{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.c1{
+    background-image: url(./Assets/Images/products/Anjeer\ Special\ Cone\ &\ Pack.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.c2{
+    background-image: url(./Assets/Images/products/cookie.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.c3{
+    background-image: url(./Assets/Images/products/Tutty\ Fruity.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f4{
+    background-image: url(./Assets/Images/products/Almond\ Treat\ 3D\ Pack.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover,
+.f4:hover{
+    background-size: 320px;
+}
+.div2{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.f5{
+    background-image: url(./Assets/Images/products/Bohemiam\ 3D.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f6{
+    background-image: url(./Assets/Images/products/GULAB\ JAMUN\ 3D\ BOX.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f7{
+    background-image: url(./Assets/Images/products/COFFEE\ BISCUIT\ 3Dpsd.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f8{
+    background-image: url(./Assets/Images/products/Fruit\ Cocktail\ 3DBox.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f5:hover,
+.f6:hover,
+.f7:hover,
+.f8:hover{
+    background-size: 320px;
+}
+.div3{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.f9{
+    background-image: url(./Assets/Images/products/HONEY\ NUT\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f10{
+    background-image: url(./Assets/Images/products/Peanut\ Butter\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f11{
+    background-image: url(./Assets/Images/products/MALAI_BUTTERSCOTCH\ \ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f12{
+    background-image: url(./Assets/Images/products/Orange\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f9:hover,
+.f10:hover,
+.f11:hover,
+.f12:hover {
+    background-size: 320px;
+}
+.div4{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.f13{
+    background-image: url(./Assets/Images/products/Rajbhog\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f14{
+    background-image: url(./Assets/Images/products/Seasalt\ Caramel\ Cookies\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f15{
+    background-image: url(./Assets/Images/products/STRAWBERRY\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f16{
+    background-image: url(./Assets/Images/products/Rose\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.f13:hover,
+.f14:hover,
+.f15:hover,
+.f16:hover {
+    background-size: 320px;
+}
+.div5{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.f17{
+    background-image: url(./Assets/Images/products/Vanilla\ 3D\ Box.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.k1{
+    background-image: url(./Assets/Images/products/Kala\ Khatta\ 3D.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    position: relative;
+    left: 20px;
+}
+.k2{
+    background-image: url(./Assets/Images/products/Grape\ 3D.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    position: relative;
+    left: 20px;
+}
+.f18{
+    background-image: url(./Assets/Images/products/Sandwich\ Ice\ Cream\ 3D.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 80px;
+    left: 12px;
+}
+.f17:hover,
+.k1:hover,
+.k2:hover,
+.f18:hover {
+    background-size: 270px;
+}
+.div6{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.k3{
+    background-image: url(./Assets/Images/products/Mango\ Dolly\ 3D.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 20px;
+}
+.k4{
+    background-image: url(./Assets/Images/products/Orange3D.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    position: relative;
+    left: 20px;
+}
+.k5{
+    background-image: url(./Assets/Images/products/Mini\ Chocobar\ 3D\ .png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    position: relative;
+    left: 20px;
+}
+.k6{
+    background-image: url(./Assets/Images/products/King\ Koolfi.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 12px;
+}
+.k3:hover,
+.k4:hover,
+.k5:hover,
+.f6:hover {
+    background-size: 270px;
+}
+.div7{
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.t1{
+    background-image: url(./Assets/Images/products/White\ Tub\ 2\ 250\ x250.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 20px;
+}
+.t2 {
+    background-image: url(./Assets/Images/products/White\ Tub\ 3\ 250x250.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transition-property: all;
+    position: relative;
+    left: 20px;
+}
+.t3{
+    background-image: url(./Assets/Images/products/White\ Tub\ 250x250.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transition-property: all;
+    position: relative;
+    left: 20px;
+}
+.t4{
+    background-image: url(./Assets/Images/products/White\ Tub\ 5\ 250x250.png);
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    transition-duration: 1s;
+    transition-property: all;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 12px;
+}
+.t1:hover,
+.t2:hover,
+.t3:hover,
+.t4:hover {
+    background-size: 270px;
+}
+.mainweb1{
+    background-image: url(./Assets/Images/Aboutus/Web\ 1.png);
+    width: 100%;
+    height: 506px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mainweb2{
+    background-image: url(./Assets/Images/Aboutus/Web\ 2.png);
+    width: 100%;
+    height: 601px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mainweb3{
+    background-image: url(./Assets/Images/Aboutus/Web\ 3.png);
+    width: 100%;
+    height: 621px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mainweb4{
+    background-image: url(./Assets/Images/Aboutus/Web\ 4.png);
+    width: 100%;
+    height: 454px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.d1 {
+    width: 690px;
+    position: relative;
+    left: 540px;
+    top: 50px;
+}
+.d2{
+    width: 700px;
+    position: relative;
+    top: 170px;
+    left: 150px;
+}
+.d3{
+    width: 700px;
+    position: relative;
+    top: 120px;
+    left: 500px;
+}
+.d4{
+    width: 700px;
+    position: relative;
+    top: 130px;
+    left: 150px;
+}
+.txt1{
+    font-size: 70px;
+    color: white;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.txt2{
+    width: 680px;
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.txt3{
+    font-size: 70px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.02em;
+    opacity: .9;
+}
+.txt4{
+    width: 700px;
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.txt5{
+    font-size: 70px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 10px;
+    opacity: .9;
+}
+.txt6{
+    width: 700px;
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.txt7{
+    font-size: 70px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 10px;
+    opacity: .9;
+}
+.txt8{
+    width: 685px;
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.bg{
+    width: 100%;
+    height: 686px;
+    background-size: cover;
+    object-fit: cover;
+}
+.conmain2{
+    height: 700px;
+    width: 100%;
+}
+.condiv1{
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 170px;
+}
+.condiv2{
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.btn1{
+    height: 50px;
+    width: 200px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.i1{
+    width: 20px;
+    position: relative;
+    bottom: 70px;
+}
+.i2{
+    width: 20px;
+}
+.i3{
+    width: 20px;
+    position: relative;
+    right: 25px;
+}
